@@ -19,7 +19,7 @@ class HorizontalTextIconView constructor(context: Context, attrs: AttributeSet):
         findViewById<ImageView>(R.id.iv_icon).setImageResource(icon)
     }
 
-    fun setText(text: String) {
+    fun setValue(text: String) {
         findViewById<TextView>(R.id.tv_value).text = text
     }
 
